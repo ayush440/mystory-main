@@ -28,12 +28,12 @@ export default async function Page() {
           <div className="rounded-3xl bg-[#E4CAFC] p-4 flex w-2/5 shadow-md ">
             <div className="text-[#6C07CC] ">
               Ayush Namdeo,
-              Narula institute of Technology
+              OP Jindal University 
             </div>
 
             <img
               className="rounded-full float-right bg-white w-16 h-16 shadow-lg "
-              src="https://avatars.githubusercontent.com/u/110457746?v=4"
+              src=" /image/Ayush.jpg"
               alt="Profile"
             />
           </div>
