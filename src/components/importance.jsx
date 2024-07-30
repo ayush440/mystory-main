@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { HoverEffect } from '../components/ui/hover-effect.jsx';
+import { HoverEffect } from './ui/hover-effect.jsx';
 
 const CardHoverEffectDemo = () => {
   return (

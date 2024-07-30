@@ -7,9 +7,9 @@ import {
   CardBody,
   CardContainer,
   CardItem,
-} from '../../components/ui/3D-cards';
+} from '../ui/3D-cards';
 import { Github } from 'lucide-react';
-import { Button } from '../../components/ui/button';
+import { Button } from '../ui/button';
 
 export function ThreeDCardDemo() {
   return (
