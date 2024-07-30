@@ -45,10 +45,10 @@ const SpotifyWidget = () => {
           }}
         >
           {isExpanded ? (
-            'x' // Use text for the collapse button
+            'x' 
           ) : (
             <Image
-              src="/spotify.png" // Path to your Spotify icon
+              src="/spotify.png" 
               alt="Spotify"
               width={30}
               height={30}
@@ -64,7 +64,7 @@ const SpotifyWidget = () => {
           borderRadius: '10px',
           width: '100%',
           height: '352px',
-          display: isExpanded ? 'block' : 'none', // Hide when collapsed
+          display: isExpanded ? 'block' : 'none', 
         }}
         src="https://open.spotify.com/embed/playlist/37i9dQZF1DWWQRwui0ExPn?utm_source=generator&theme=0"
         frameBorder="0"

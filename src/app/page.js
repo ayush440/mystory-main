@@ -7,15 +7,15 @@ import CallToAction from '@/components/CallToAction';
 import BuyMeACoffee from '@/components/BuyMeACoffee';
 import BackToTop from '@/components/BackToTop';
 import Background from '@/components/Background';
-import Spotify from '@/components/Spotify';
+import SpotifyWidget from '@/components/Spotify'; // Correct import path
 
 import CustomCursor from '@/components/ui/custom-cursor';
 
 import Lenis from '@studio-freight/lenis';
 import { useEffect } from 'react';
 import { InfiniteMovingCardsDemo } from '../components/Testimonials';
-
 import { CardHoverEffectDemo } from '../components/importance';
+
 export default function Home() {
   useEffect(() => {
     const lenis = new Lenis();
@@ -25,6 +25,7 @@ export default function Home() {
     }
     requestAnimationFrame(raf);
   }, []);
+
   return (
     <>
       <CustomCursor />
@@ -34,10 +35,9 @@ export default function Home() {
           <TitleSpecial />
           <Features />
           <BuyMeACoffee />
-          <Spotify />
+          <SpotifyWidget />
           <BackToTop />
-        <CardHoverEffectDemo />
-          
+          <CardHoverEffectDemo />
           <InfiniteMovingCardsDemo />
         </Background>
         <CallToAction />
