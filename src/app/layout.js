@@ -6,6 +6,7 @@ import Provider from '@/components/Provider';
 
 const inter = Plus_Jakarta_Sans({ subsets: ['latin'] });
 
+
 export const metadata = {
   title: 'mystory | share your stories anonymously',
   description:
