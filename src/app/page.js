@@ -11,6 +11,7 @@ import Spotify from '@/components/Spotify';
 
 import CustomCursor from '@/components/ui/custom-cursor';
 
+
 import Lenis from '@studio-freight/lenis';
 import { useEffect } from 'react';
 import { InfiniteMovingCardsDemo } from '../components/Testimonials';
